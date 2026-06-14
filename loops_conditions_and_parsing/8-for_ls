@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays directory content without hidden files and removes prefix number-
+
+for file in *
+do
+    echo "${file#*-}"
+done
